@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moneda</title>
+  <link rel="stylesheet" href="css/cuatro.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Moneda</h1>
+    <input type="number" id="monto" placeholder="Monto en dólares" min="0">
+    <select id="moneda">
+      <option value="eur">Euros</option>
+      <option value="mxn">Pesos mexicanos</option>
+    </select>
+    <button onclick="convertirMoneda()">Convertir</button>
+    <p id="resultado">Resultado: </p>
+  </div>
+
+  <script src="js/cuatro.js"></script>
+</body>
+</html>
